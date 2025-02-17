@@ -40,10 +40,10 @@
     margin: 0 auto;
   }
   .container-about{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 display: flex; 
-justify-content:space-between;
+justify-content:space-evenly;
 flex-wrap: wrap;}
   
 .container-about img{width: 450px;
@@ -73,11 +73,12 @@ margin: 10px;}
     line-height: 1.5;
   }
   p3 {
-    padding: 20px;
+
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    margin:0 auto;
   }
   .navigation-links {
     display: flex;
@@ -123,12 +124,15 @@ margin: 10px;}
   }
   .about-paragraphs {
     display: flex;
-    margin: 30px 0;
+margin: 0 auto;
+max-width: 1700px;
+justify-content: center;
+line-height: 2;
+padding-bottom: 20px;
   }
   
-  .about-paragraphs p {
-    margin: 10px;
-  }
+
+  
   
   .email-link {
     display: flex;
