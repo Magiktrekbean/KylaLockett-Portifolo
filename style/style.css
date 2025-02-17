@@ -92,6 +92,14 @@
     border: 5px dotted var(--primary-color);
     border-radius: 5px !important;
   }
+  @media(max-width: 768px){
+    button{
+   max-width: 100%;
+  height: auto;
+display: block;
+margin: 0 auto!important;
+}
+p2{text-align: center;}}
   
   .homepage-link {
     color: var(--primary-color);
