@@ -93,29 +93,22 @@ text-align: center;
 
 }
 @media(max-width: 768px){
-  button{
+  button.specific-launch{
     width: 300px;
  max-width: 100%;
 height: auto;
 display: block;
 margin: 0 auto!important;
 }
-p2{text-align: center;}}
-  p {
-    background: var(--secondary-color);
-    padding: 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-  }
-  p2 {
-    padding: 20px;
+p{text-align: center;}}
+
+  p{
+   
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
   }
-  p3 {
+  p.about {
 
     border-radius: 4px;
     font-size: 18px;
