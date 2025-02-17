@@ -41,7 +41,9 @@
     margin: 0 auto;
 display: flex; 
 justify-content:space-evenly;
-flex-wrap: wrap;}
+flex-wrap: wrap;
+padding-left: 20px;
+padding-right: 20px;}
   
 .container-about img{width: 450px;
 height: 450px;
@@ -64,6 +66,7 @@ height: auto;
 max-width: 500px;
 
 
+
 }
   .container-about img {
  
@@ -73,14 +76,16 @@ max-width: 500px;
  justify-content: center;
  align-items: center;
  width: 499px ;
+ margin-bottom: 30px;
 
   }
   h1.homepage, h4, h5, h6{font-size: 32px!important;
   text-align: center;
 }
 
-    h3{font-size: 24px!important;
+    h3, h2.about{font-size: 24px!important;
   margin: 0;
+  color: #58151c;
 text-align: center;}
 .about-paragraphs{ padding-left: 10px;
 padding-right: 10px;
@@ -106,15 +111,17 @@ p{text-align: center;}}
    
     border-radius: 4px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2.5;
   }
   p.about {
 
     border-radius: 4px;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2.5;
     text-align: center;
     margin:0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .navigation-links {
     display: flex;
